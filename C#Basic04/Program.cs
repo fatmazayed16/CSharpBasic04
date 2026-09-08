@@ -65,6 +65,16 @@ namespace C_Basic04
             }
             #endregion
 
+            #region 9th Answer
+            //int pages = 464;
+            bool isAvilable = true;
+            if (isAvilable && pages > 300)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+            #endregion
+
+
         }
     }
 }
