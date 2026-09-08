@@ -74,6 +74,21 @@ namespace C_Basic04
             }
             #endregion
 
+            #region 10th Answer
+            string title10 = "Refactoring";
+            switch (title10)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            #endregion
 
         }
     }
