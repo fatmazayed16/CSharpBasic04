@@ -1,4 +1,6 @@
-﻿namespace C_Basic04
+﻿using System.Text;
+
+namespace C_Basic04
 {
     internal class Program
     {
@@ -19,6 +21,14 @@
             // Output: True 
             // Explanation: In C#, string literals are interned, meaning that identical string literals are stored only once in memory. 
             //Therefore, both title2 and title02 refer to the same memory location, resulting in ReferenceEquals returning true.
+            #endregion
+
+            #region 3rd Answer
+            StringBuilder bookList = new StringBuilder();
+            bookList.Append("Book List");
+            bookList.Append(" - Updated");
+            Console.WriteLine(bookList); 
+            // StringBuilder is a mutable class that allows you to efficiently modify strings without creating new objects.
             #endregion
 
         }
