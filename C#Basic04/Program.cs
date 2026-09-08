@@ -54,6 +54,17 @@ namespace C_Basic04
             // The string.Format method is used to format strings by replacing placeholders with actual values.
             #endregion
 
+            #region 8th Answer
+            //int pages = 464;
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }else
+            {
+                Console.WriteLine("Short Book");
+            }
+            #endregion
+
         }
     }
 }
