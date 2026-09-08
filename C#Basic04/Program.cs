@@ -124,6 +124,13 @@ namespace C_Basic04
             } while (count < 3);
             #endregion
 
+            #region 15th Answer
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
+
         }
     }
 }
