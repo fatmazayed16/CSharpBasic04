@@ -27,8 +27,14 @@ namespace C_Basic04
             StringBuilder bookList = new StringBuilder();
             bookList.Append("Book List");
             bookList.Append(" - Updated");
-            Console.WriteLine(bookList); 
+            Console.WriteLine(bookList);
             // StringBuilder is a mutable class that allows you to efficiently modify strings without creating new objects.
+            #endregion
+
+            #region 4th Answer
+            bookList.Replace("Book List", "Library");
+            Console.WriteLine(bookList);
+            // The Replace method is used to replace a specified substring with another substring in the StringBuilder.
             #endregion
 
         }
