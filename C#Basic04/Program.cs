@@ -59,7 +59,8 @@ namespace C_Basic04
             if (pages > 300)
             {
                 Console.WriteLine("Long Book");
-            }else
+            }
+            else
             {
                 Console.WriteLine("Short Book");
             }
@@ -98,10 +99,19 @@ namespace C_Basic04
 
             #region 12th Answer
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-
-            for (int i = 0; i < books.Length; i++)
+            int i;
+            for (i = 0; i < books.Length; i++)
             {
                 Console.WriteLine(i+1 + ". " + books[i]);
+            }
+            #endregion
+
+            #region 13th Answer
+            i = 0;
+            while (i < books.Length)
+            {
+                Console.WriteLine(books[i]);
+                i++;
             }
             #endregion
 
