@@ -40,9 +40,13 @@ namespace C_Basic04
             #region 5th Answer
             //string title = "Clean Code";
             int pages = 464;
-            string bookInfo = "Book: " + title + ", Pages: " + pages;
-            Console.WriteLine(bookInfo);
+            Console.WriteLine("Book: " + title + ", Pages: " + pages);
             // Explanation: The + operator is used to concatenate strings and variables. In this case, it combines the title and pages into a single string.
+            #endregion
+
+            #region 6th Answer
+            Console.WriteLine($"Book: {title}, Pages: {pages}");
+            // The $ symbol before the string indicates that it is an interpolated string.
             #endregion
 
         }
