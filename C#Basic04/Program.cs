@@ -37,6 +37,14 @@ namespace C_Basic04
             // The Replace method is used to replace a specified substring with another substring in the StringBuilder.
             #endregion
 
+            #region 5th Answer
+            //string title = "Clean Code";
+            int pages = 464;
+            string bookInfo = "Book: " + title + ", Pages: " + pages;
+            Console.WriteLine(bookInfo);
+            // Explanation: The + operator is used to concatenate strings and variables. In this case, it combines the title and pages into a single string.
+            #endregion
+
         }
     }
 }
