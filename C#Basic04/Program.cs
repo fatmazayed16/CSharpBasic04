@@ -49,6 +49,11 @@ namespace C_Basic04
             // The $ symbol before the string indicates that it is an interpolated string.
             #endregion
 
+            #region 7th Answer
+            Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
+            // The string.Format method is used to format strings by replacing placeholders with actual values.
+            #endregion
+
         }
     }
 }
