@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 
 namespace C_Basic04
 {
@@ -102,7 +103,7 @@ namespace C_Basic04
             int i;
             for (i = 0; i < books.Length; i++)
             {
-                Console.WriteLine(i+1 + ". " + books[i]);
+                Console.WriteLine(i + 1 + ". " + books[i]);
             }
             #endregion
 
@@ -153,6 +154,21 @@ namespace C_Basic04
                 }
                 Console.WriteLine(book);
             }
+            #endregion
+
+            #region 18th Answer
+            static void PrintFirstBook()
+            {
+                string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+                if (books.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books[0]);
+            }
+            PrintFirstBook();
             #endregion
 
         }
