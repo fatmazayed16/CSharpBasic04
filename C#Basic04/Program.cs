@@ -144,6 +144,17 @@ namespace C_Basic04
             }
             #endregion
 
+            #region 17th Answer
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(book);
+            }
+            #endregion
+
         }
     }
 }
