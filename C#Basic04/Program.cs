@@ -115,6 +115,15 @@ namespace C_Basic04
             }
             #endregion
 
+            #region 14th Answer
+            int count = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                count++;
+            } while (count < 3);
+            #endregion
+
         }
     }
 }
