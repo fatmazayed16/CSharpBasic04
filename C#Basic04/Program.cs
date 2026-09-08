@@ -131,6 +131,19 @@ namespace C_Basic04
             }
             #endregion
 
+            #region 16th Answer
+            foreach (string book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    Console.WriteLine(book);
+                    break;
+                }
+                Console.WriteLine(book);
+
+            }
+            #endregion
+
         }
     }
 }
